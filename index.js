@@ -7,6 +7,8 @@ const PORT = process.env.PORT || 4000;
 const app = express();
 connection();
 
+app.use(express.json());
+
 app.use('/api/veterinarian', veterinarianRoutes);
 
 app.listen(PORT, () => {

@@ -3,10 +3,12 @@ import {
 	login,
 	resgister,
 	veterinarianHome,
+	perfil,
 } from '../controllers/veterinarianController.js';
 const router = express.Router();
 
 router.get('/', veterinarianHome);
-router.get('/register', resgister);
-router.get('/login', login);
+router.post('/register', resgister);
+router.post('/login', login);
+router.get('/perfil', perfil);
 export default router;
